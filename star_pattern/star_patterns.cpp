@@ -42,7 +42,7 @@ void pattern5(int n){
         cout << "\n";
     }
 }
-void pattern6(int n)){
+void pattern6(int n){
     for(int i = 0; i < n; i ++){
         for(int j =  n - i - 1; j != 0; j-- ){
             cout << " ";
@@ -57,6 +57,22 @@ void pattern6(int n)){
         
 }
 }
+void pattern7(int n){
+    for(int  i = 0; i < n; i ++){
+        for(int j = i ; j >= 0 ; j-- ){
+            cout << " ";
+        }
+        for(int j = 2* i ; j < (2*n-1) ; j++){
+            cout << "*";
+        }
+       for(int j = i ; j >= 0 ; j-- ){
+            cout << " ";
+        }
+        cout << endl;
+        
+}
+}
+
 
 
 int main(){
